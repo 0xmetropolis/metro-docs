@@ -68,6 +68,14 @@
   text-underline-position: under;
 }
 
+.menu__list .menu__list {
+  border-bottom: 1px solid #EBEAFB;
+}
+
+.menu__list-item-collapsible {
+  font-weight: bold;
+}
+
 
 /*custom CSS for launch app button on nav bar*/
 .launchAppNavButton {
