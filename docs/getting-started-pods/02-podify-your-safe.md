@@ -28,11 +28,11 @@ Podifying a Gnosis Safe is straightforward. The Metropolis web app walks you thr
 
 ## 1. Check Build Permit NFT[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-To podify one of your Gnosis Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz/podify](http://pod.xyz/podify). 
+To podify one of your Gnosis Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz](http://pod.xyz/). 
 
 ## 2. Navigate to the Metropolis app[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-You can access the Metropolis web app at [https://pod.xyz/](https://pod.xyz/)podify. 
+You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podify). 
 
 ## 3. Start the Podifying Process[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
