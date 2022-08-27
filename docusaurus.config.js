@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Metropolis',
+  title: 'Metropolis Docs',
   tagline: 'The on-chain permissions layer for DAOs',
   url: 'https://docs.metropolis.info',
   baseUrl: '/',
@@ -34,20 +34,17 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsed: false,
-          // Please change this to your repo.
+
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/orcaprotocol/orca-docs/blob/main/',
         },
         blog: {
           routeBasePath: 'changelog',
           blogSidebarTitle: 'Changelog',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:'https://github.com/orcaprotocol/orca-docs/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
     {
-      image: './static/img/openGraphLogo.png',
+      image: '/static/img/openGraphLogo.png',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
@@ -68,7 +65,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Welcome to Metropolis! Click to see if you <a target="_blank" rel="noopener noreferrer" href="https://pod.xyz">qualified for our airdrop!</a>',
+          'Welcome to Metropolis! Click to see if you <a target="_blank" rel="noopener noreferrer" href="https://pod.xyz">qualified for our Build Permit airdrop!</a>',
         backgroundColor: '#C4BFF2',
         textColor: '#110F1F',
         isCloseable: true,
