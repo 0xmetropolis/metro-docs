@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Documentation for Metropolis">
+      description="The on-chain permissions layer for DAOs">
       <HomepageHeader />
       <main>
       <div className={styles.layoutFlexBox}>
