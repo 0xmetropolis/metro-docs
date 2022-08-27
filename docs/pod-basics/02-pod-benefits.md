@@ -8,15 +8,22 @@ title: Benefits Of Pods
 ---
 
 
-Teams, DAOs, and organizations become the beneficiaries of using pods through:
+## All Your Safes in One Interface
 
-### Increased transparency and visibility
-Pods more clearly identify the nuclei of activity that exist within DAO ecosystems. By creating a more public identity (pod ENS name, pod NFT image, and dedicated pod URL) around working groups, DAO contributors, community members, and partners have better insight into the network of people and working units in your ecosystem. 
-### Organizational flexibility
-Pods are flexible and modular enough to support your organization as it evolves, matures, and decentralizes. Pods are the most basic unit of a DAO--allowing  DAO participants to create custom organizational designs that meet ecosystem demands. 
-### Ecosystem composability
-Each pod is managed with ERC1155 tokens and built on top of a Gnosis Safe multi-sig wallet. Leveraging these standard web3 primitives ensures full composability with future Orca Protocol tools alongside the entire ecosystem of DAO and web3 tools. 
-### Speed and decisiveness 
-Delegate roles and responsibilities to focused pods. Coordination required within a pod is low touch - boosting productivity while providing a way to maintain accountability for pod members. 
-### Optimized workflows for teams 
-Your teams will be the beneficiary of optimized workflows within other DAO tools as Orca Protocol expands its partnerships and integrations with the DAO and web3 infrastructure.
+Proposals across all your multi-sigs are aggregated into one interface ‒ making it easy for signers to quickly approve transactions and closing the gap between idea and execution.
+
+## Manage Signers with Zero Fuss
+
+With admin capabilities and NFTs for managing signers, mass onboarding and off-boarding contributors is simple. By providing a legible permissions layer, pods ensure that the right amount of governable surface area is exposed. This directly addresses the problem of DAOs lacking accountability and visibility in their control structure.
+
+## Give your Safe an Identity
+
+No need to waste time and energy identifying multi-sig addresses. Every pod has a unique NFT, ENS name, and matching URL. These elements are combined to create a public identity around working groups. It creates more transparency and gives DAO contributors and partners better visibility into the network of people in the ecosystem.
+
+## Organizational Adaptability
+
+Pods are designed to be modular and flexible. They provide structural support for your organization as it evolves and matures. This enables DAOs to create custom organizational designs that meet their unique requirements.
+
+## Workflow Optimization
+
+Metropolis is actively expanding its list of partnerships and integrations across the web3 landscape. This means that working groups running on pods are able to coordinate through a growing number of web3 native tools.

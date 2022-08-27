@@ -7,7 +7,7 @@ title: Pod Transactions
 
 ## Overview
 
-Transactions are the fundamental objects that drive productive activity for pods. Pod transactions can include anything from adding pod members, removing pod members, managing Gnosis Safe assets or conducting any other on-chain action as a pod.
+Transactions are the fundamental objects that drive productive activity for pods. Pod transactions can include any on-chain action such as adding pod members, removing pod members, managing Gnosis Safe assets or conducting any other on-chain action as a pod.
 
 Technically, all pod transactions are managed by Gnosis Safe's transaction service.
 
@@ -20,13 +20,16 @@ All pod proposals can be viewed, approved, rejected and executed within the Metr
 In addition, the Gnosis Safe UI can be used to sign and execute any pod transactions, but does not offer as intuitive support for member pod proposal approval/rejection. 
 
 ## Confirmation threshold
-The confirmation threshold is the number of signatures required to execute a transaction and send it on-chain. 
+The confirmation threshold is the number of pod members needed to sign a transaction before it can be executed on-chain. This threshold is always the same as the threshold for the pod’s Gnosis Safe. 
+
+Signing a transaction does not require the user to pay a gas fee, but executing a transaction does.
 
 ## Proposals vs. direct execution
+For pod management actions, you can immediately confirm and execute a transaction if you are the pod manager. This is true when the pod manager is an [EOA](https://ethereum.org/en/glossary/#eoa) or a smart contract (e.g., a Governor contract).
 
-For any Metropolis pod management related action, it's important to understand when a proposal is needed versus when a transaction can be executed directly.
+Pod members can create a transaction for certain pod management actions too, but this transaction must be approved by other pod members before it can be executed (enough to reach the Safe’s threshold). 
 
-In general, if you are a manager EOA or manager contract (e.g., not an pod manager) you can execute any pod management activity directly without requiring a proposal.
+Check the table below to see if your current pod role allows you to immediately execute pod management actions.
 
 | Persona in relation to pod being managed      | Direct execution? | 
 |-----------------------------------------------|-------------------|
