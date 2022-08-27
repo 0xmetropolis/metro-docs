@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Pod Beta Users
 ---
 
-##### Information for Metropolis Beta users.
+##### Information for Metropolis Limited Beta users.
 
 ---
 

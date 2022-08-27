@@ -9,4 +9,4 @@ title: Introduction
 
 ## What Is Metropolis?
 
-Metropolis is an on-chain permissions layer for DAO working groups. Our permissions layer manifests itself as a wrapper around a Gnosis Safe, resulting in which creates a governance primitive we call **pods**.
+Metropolis is an on-chain permissions layer for DAO working groups. Our permissions layer manifests itself as a wrapper around a Gnosis Safe, which creates a governance primitive we call **pods**.
