@@ -65,7 +65,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Welcome to Metropolis! Click to see if you <a target="_blank" rel="noopener noreferrer" href="https://pod.xyz">qualified for our airdrop!</a>',
+          'Welcome to Metropolis! Click to see if you <a target="_blank" rel="noopener noreferrer" href="https://pod.xyz">qualified for our Build Permit airdrop!</a>',
         backgroundColor: '#C4BFF2',
         textColor: '#110F1F',
         isCloseable: true,
