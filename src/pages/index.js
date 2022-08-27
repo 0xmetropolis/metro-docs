@@ -76,7 +76,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
       description="The on-chain permissions layer for DAOs">
       <HomepageHeader />
       <main>
