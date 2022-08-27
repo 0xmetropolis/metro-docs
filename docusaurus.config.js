@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
     {
-      image: './static/img/openGraphLogo.png',
+      image: '/static/img/openGraphLogo.png',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
