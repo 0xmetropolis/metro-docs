@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 ---
 
-##### Welcome to Metropolis' docs - the on-chain permissions layer for DAOs.
+##### Welcome to Metropolis, the on-chain permissions layer for DAOs.
 
 ---
 
