@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 ---
 
-##### Welcome to Metropolis's docs - documentation for the people-first protocol.
+##### Welcome to Metropolis' docs - the on-chain permissions layer for DAOs.
 
 ---
 
