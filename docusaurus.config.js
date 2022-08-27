@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Metropolis',
+  title: 'Metropolis Docs',
   tagline: 'The on-chain permissions layer for DAOs',
   url: 'https://docs.metropolis.info',
   baseUrl: '/',
@@ -34,20 +34,17 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsed: false,
-          // Please change this to your repo.
+
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/orcaprotocol/orca-docs/blob/main/',
+          // editUrl: 'https://github.com/orcaprotocol/orca-docs/blob/main/',
         },
         blog: {
           routeBasePath: 'changelog',
           blogSidebarTitle: 'Changelog',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/orcaprotocol/orca-docs/blob/main/',
+          // editUrl:'https://github.com/orcaprotocol/orca-docs/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
