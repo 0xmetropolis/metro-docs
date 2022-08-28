@@ -7,7 +7,7 @@ title: Pod Beta Users
 
 ---
 
-We’ve chosen a select group of DAOs to have access to our beta. For those that do currently have access to Metropolis, please see our quick rundown and instructions below for new users. 
+We’ve chosen a select group of DAOs to have access to pods. For those that do not currently have access to Metropolis, you can request access [here](https://metropods.typeform.com/build). 
 
 ## Supercharge your Gnosis Safe
 
