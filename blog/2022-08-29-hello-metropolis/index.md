@@ -12,7 +12,7 @@ We’re excited to share that Orca Protocol is rebranding to Metropolis and open
 
 <!--truncate-->
 
-Please read our [rebrand and airdrop announcement](https://blog.metropolis.info) for all of the details on our new narrative and direction.
+Please read our [rebrand and airdrop announcement](https://blog.metropolis.space) for all of the details on our new narrative and direction.
 
 With this rebrand, we are also releasing a few major updates to our product:
 

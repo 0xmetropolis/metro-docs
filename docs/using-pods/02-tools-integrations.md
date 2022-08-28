@@ -11,7 +11,7 @@ Metropolis makes it easy for web3 infrastructure to integrate with pods. Below a
 
 ### Parcel
 
-Parcel is a dynamic, one-stop shop for on-chain DAO financial operations. Metropolis is integrated with Parcel to make payment operations easier for pods. Learn more about our integration [here](https://blog.metropolis.info/manage-your-pods-finances-with-parcel/).
+Parcel is a dynamic, one-stop shop for on-chain DAO financial operations. Metropolis is integrated with Parcel to make payment operations easier for pods. Learn more about our integration [here](https://blog.metropolis.space/manage-your-pods-finances-with-parcel/).
 
 ### Snapshot
 
@@ -23,7 +23,7 @@ Tally is a DAO operations platform that helps people start, join, and grow decen
 
 ### Boardroom
 
-Boardroom is a DAO governance aggregator helping members make faster, smarter, and more informed decisions. Metropolis pods are integrated on the Boardroom dashboard as a bundle. Learn more about this integration [here](https://blog.metropolis.info/manage-pod-governance-with-boardroom/).
+Boardroom is a DAO governance aggregator helping members make faster, smarter, and more informed decisions. Metropolis pods are integrated on the Boardroom dashboard as a bundle. Learn more about this integration [here](https://blog.metropolis.space/manage-pod-governance-with-boardroom/).
 
 ### Guild
 
