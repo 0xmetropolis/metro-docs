@@ -14,7 +14,7 @@ You can enable the Metropolis module on any Gnosis Safe that you are a signer on
 
 ## Are pods on-chain?
 
-Yes, pods are an on-chain tool. This means that users and builders benefit from the legibility and composability that the Ethereum blockchain offers. Builders can consume pods to easily integrate with Metropolis. Read more about our *[Contracts](https://docs.metropolis.info/docs/smart-contracts/metropolis-contracts)* and *[SDK](https://docs.metropolis.info/docs/sdk/sdk-overview)*.
+Yes, pods are an on-chain tool. This means that users and builders benefit from the legibility and composability that the Ethereum blockchain offers. Builders can consume pods to easily integrate with Metropolis. Read more about our *[Contracts](https://docs.metropolis.space/docs/smart-contracts/metropolis-contracts)* and *[SDK](https://docs.metropolis.space/docs/sdk/sdk-overview)*.
 
 ## Does Metropolis have a token?
 
@@ -38,7 +38,7 @@ Metropolis is currently only deployed on Ethereum Mainnet and Rinkeby.
 
 ## How can I integrate with Metropolis?
 
-We’re actively developing and maintaining our [Metropolis SDK](https://docs.metropolis.info/docs/sdk/sdk-overview). A great way to explore integrations is to play around with our SDK to learn how your platform might consume pods. You can reach out to our team for further questions via [Discord](https://discord.gg/metropolis). 
+We’re actively developing and maintaining our [Metropolis SDK](https://docs.metropolis.space/docs/sdk/sdk-overview). A great way to explore integrations is to play around with our SDK to learn how your platform might consume pods. You can reach out to our team for further questions via [Discord](https://discord.gg/metropolis). 
 
 ## Is optimistic governance possible with pods?
 
