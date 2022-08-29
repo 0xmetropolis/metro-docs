@@ -3,13 +3,13 @@ export const gettingStartedContent = [
       docNumber: '01',
       docTitle: 'Learn Pod Basics →',
       docSubtopic: 'LEARN',
-      docLink: '/docs/intro',
+      docLink: '/docs/pod-basics/pod-basics',
     },
     {
       docNumber: '02',
-      docTitle: 'Pod Configurations →',
-      docSubtopic: 'SETUP',
-      docLink: '/docs/pod-basics/pod-configurations',
+      docTitle: 'Pod Beta Access →',
+      docSubtopic: 'ACCESS',
+      docLink: '/docs/pod-beta-users',
     },
     {
       docNumber: '03',

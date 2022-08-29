@@ -44,12 +44,20 @@
 
   
 
-/*CSS for desktop version
+/*CSS for desktop version */
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
-  background-color: #F8F9FC;
+.navbar__brand {
+  margin-left: 5px;
+  margin-right: 40px;
 }
-*/
+
+.navbar__item {
+  margin-right: .5rem;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 1px;
+}
+
 .navbar__link:hover {
   color: #4535d8;
 }
@@ -57,14 +65,16 @@
 .navbar__link--active {
   color: #4535d8;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
   text-underline-position: under;
+  text-underline-offset: 4px;
+  font-weight: 600;
 }
 
 .navbar__link--active:hover {
   color: #4535d8;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
   text-underline-position: under;
 }
 
@@ -117,6 +127,7 @@
 
   .menu__link--active {
     color: #4535d8;
+    font-weight: 600;
   }
 
   .menu__link--active:hover {

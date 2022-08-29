@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Metropolis Docs',
   tagline: 'The on-chain permissions layer for DAOs',
-  url: 'https://docs.metropolis.info',
+  url: 'https://docs.metropolis.space',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -80,7 +80,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Overview',
+            label: 'Home',
           },
           {to: '/docs/sdk/sdk-overview', label: 'SDK', position: 'left'},
           {to: '/docs/smart-contracts/metropolis-contracts', label: 'Contracts', position: 'left'},
