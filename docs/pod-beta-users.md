@@ -32,6 +32,10 @@ Our smart contracts do not interact with, or have access to, the assets in your 
 
 Metropolis contracts have been independently audited by Consensys Dilligence, Quantstamp, and the internal auditors at Gnosis Safe.
 
+> **No DAO-wide votes or consensus required**
+> 
+> Enabling pods does not require that you gather consensus from the entire DAO. Pods can be enabled per-Gnosis Safe, so you don’t need DAO-wide consensus for individual working groups / guilds to enable pods.
+
 ## Next Steps
 
 Beta access means you can:
