@@ -5366,6 +5366,11 @@
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
+"medium-zoom@^1.0.4":
+  "integrity" "sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg=="
+  "resolved" "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.6.tgz"
+  "version" "1.0.6"
+
 "memfs@^3.1.2", "memfs@^3.4.3":
   "integrity" "sha512-ygaiUSNalBX85388uskeCyhSAoOSgzBbtVCr9jA2RROssFL9Q19/ZXFqS+2Th2sr1ewNIWgFdLzLC3Yl1Zv+lw=="
   "resolved" "https://registry.npmjs.org/memfs/-/memfs-3.4.7.tgz"
@@ -5914,6 +5919,12 @@
   "version" "3.1.0"
   dependencies:
     "find-up" "^3.0.0"
+
+"plugin-image-zoom@github:flexanalytics/plugin-image-zoom":
+  "resolved" "git+ssh://git@github.com/flexanalytics/plugin-image-zoom.git#86f6f0b4f927ded94dcfdc18c0a9ee702ffd8d06"
+  "version" "0.0.0"
+  dependencies:
+    "medium-zoom" "^1.0.4"
 
 "postcss-calc@^8.2.3":
   "integrity" "sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q=="

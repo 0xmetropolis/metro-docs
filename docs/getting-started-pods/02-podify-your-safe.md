@@ -32,7 +32,7 @@ To podify one of your Gnosis Safes, you must be a signer on a Safe that got aird
 
 ## 2. Navigate to the Metropolis app[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podify). 
+You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podify-safe). 
 
 ## 3. Start the Podifying Process[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
