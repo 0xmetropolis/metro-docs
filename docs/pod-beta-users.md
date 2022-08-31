@@ -50,7 +50,7 @@ You can do all of this through our interface at [pod.xyz](https://pod.xyz/).
 
 ## What’s Coming
 
-Standalone pods are powerful tools, but they’re even more powerful when you click them together. From pod templates to a visual podarchy builder, we can’t wait for you to see what we’ve got in store. Make sure you’re following us on [Twitter](https://twitter.com/metropolis) to stay updated on all things pods.
+Standalone pods are powerful tools, but they’re even more powerful when you click them together. From pod templates to a visual podarchy builder, we can’t wait for you to see what we’ve got in store. Make sure you’re following us on [Twitter](https://twitter.com/0xmetropolis) to stay updated on all things pods.
 
 ## Support
 
