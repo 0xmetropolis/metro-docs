@@ -49,15 +49,31 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+
       }),
     ],
   ],
-
+  plugins: [
+    'plugin-image-zoom'
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
     {
       image: '/img/openGraphLogo.png',
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'. If you don't want an image to be zoomable wrap it in an <em> tag
+        selector: '.markdown :not(em) > img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 50 ,
+          background: '#fff',
+          scrollOffset: 0,
+          //container: '#zoom-container',
+          //template: '#zoom-template',
+        },
+      },
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,

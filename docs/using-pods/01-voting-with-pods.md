@@ -14,7 +14,7 @@ Access your preferred governance / voting platform of your choice (Boardroom, Ta
 ![Voting With Pods](./img/VotingWithPods1.png)
 
 ## 2. Access Pod Gnosis Safe UI
-From your pod page, you can click the "Safe" button to access the Gnosis Safe UI.
+From your pod page, you can click the "Safe" button on the pod details component to access the Gnosis Safe app.
 
 ![Voting With Pods](./img/VotingWithPods2.png)
 
