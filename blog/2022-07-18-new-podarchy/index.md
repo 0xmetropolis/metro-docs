@@ -8,7 +8,7 @@ tags: [changelog, product]
 ![New Podarchy](./new-podarchy.png)
 
 ## Podarchy UI Updates
-Today we released some new UI updates to our [podarchy view](https://pod.xyz/podarchy/orcanauts).
+Today we released some new UI updates to our [podarchy view](https://pod.xyz/podarchy/ensdao).
 
 <!--truncate-->
 

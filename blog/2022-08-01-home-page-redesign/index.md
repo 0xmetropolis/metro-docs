@@ -5,8 +5,6 @@ authors: [danwu]
 tags: [changelog, product]
 ---
 
-![Updated Home Page](./home-page-redesign.png)
-
 ## Home Page Revamp
 Our web app continues to get a facelift. We recently updated our home page to improve visibility of the pods you are apart of. 
 

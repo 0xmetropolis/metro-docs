@@ -1,6 +1,6 @@
 ---
-slug: 2022-08-29-hello-metropolis
-title: Aug 29, 2022
+slug: 2022-08-31-hello-metropolis
+title: Aug 31, 2022
 authors: [danwu, jtlacci]
 tags: [changelog, product]
 ---
