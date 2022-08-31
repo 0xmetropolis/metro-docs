@@ -29,7 +29,7 @@
            </p>
          </a>
          <a
-           href="https://twitter.com/metropolis"
+           href="https://twitter.com/0xmetropolis"
            target="_blank"
            rel="noopener noreferrer"
            className={styles.textFlexbox}

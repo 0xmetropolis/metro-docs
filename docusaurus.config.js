@@ -136,7 +136,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/metropolis',
+                href: 'https://twitter.com/0xmetropolis',
               },
             ],
           },
