@@ -18,7 +18,7 @@ Yes, pods are an on-chain tool. This means that users and builders benefit from 
 
 ## Does Metropolis have a token?
 
-Metropolis does ***not*** have a token. Do not accept tokens from anyone claiming to promote a related token. You can see all official communications from the Metropolis team [here](https://twitter.com/metropolis). 
+Metropolis does ***not*** have a token. Do not accept tokens from anyone claiming to promote a related token. You can see all official communications from the Metropolis team [here](https://twitter.com/0xMetropolis). 
 
 ## **Are pod approvals recorded on-chain?**
 
