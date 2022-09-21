@@ -1,7 +1,7 @@
 ---
 slug: 2022-09-20-pod-page-url
 title: Sep 20, 2022
-authors: [zkchun]
+authors: [zkchun, danwu]
 tags: [changelog, product, pod-url]
 ---
 
