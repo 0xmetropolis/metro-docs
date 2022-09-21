@@ -1,6 +1,6 @@
 danwu:
   name: Dan Wu
-  title: Metropolis Product Team
+  title: Metropolis Team
   url: https://twitter.com/itsdanwu
   image_url: https://github.com/itsdanwu.png
 
@@ -9,3 +9,9 @@ jtlacci:
   title: Metropolis Product Team
   url: https://twitter.com/johnsterlacci
   image_url: https://github.com/jtlacci.png
+
+chun:
+  name: Chun
+  title: Metropolis Product Team
+  url: https://twitter.com/zkchun
+  image_url: https://github.com/heyitschun.png
