@@ -34,7 +34,7 @@ Pod manager are a special role. They have unilateral control over pod membership
 
 ## Which blockchains is Metropolis deployed on?
 
-Metropolis is currently only deployed on Ethereum Mainnet and Rinkeby. 
+Metropolis is currently only deployed on Ethereum Mainnet and Goerli. 
 
 ## How can I integrate with Metropolis?
 
