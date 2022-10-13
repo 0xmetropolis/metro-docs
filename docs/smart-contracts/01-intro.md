@@ -28,8 +28,8 @@ Source code for all Metropolis contracts can be found in this [GitHub repository
 ##### Goerli - 5
 | **Contract**            | **Address**                                |
 | ------------            | ------------------------------------------ |
-| MemberToken              | 0x8DC995523c9c1C6180c50d0CE0733621E63ef8E1  |
-| ControllerV1.4             | 0x0C34378834653Be07746BC568b330FbEC2E08a68  |
+| MemberToken              | 0xCfA504F8917d2f285070050c5664eE92aE17140D |
+| ControllerV1.4             | 0x3b1c2Aa5111D385b9eFceA6803D4e1a3c7507852 |
 
 ## Getting Started
 
