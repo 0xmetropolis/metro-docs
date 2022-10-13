@@ -25,11 +25,11 @@ Source code for all Metropolis contracts can be found in this [GitHub repository
 | ControllerV1.4            | 0x4C98aF741e352C6551BfF9509b3f8ca9Dd4E6397  |
 
 ### Testnet Deployments
-##### Rinkeby - 4
+##### Goerli - 5
 | **Contract**            | **Address**                                |
 | ------------            | ------------------------------------------ |
-| MemberToken              | 0x8DC995523c9c1C6180c50d0CE0733621E63ef8E1  |
-| ControllerV1.4             | 0x0C34378834653Be07746BC568b330FbEC2E08a68  |
+| MemberToken              | 0xCfA504F8917d2f285070050c5664eE92aE17140D |
+| ControllerV1.4             | 0x3b1c2Aa5111D385b9eFceA6803D4e1a3c7507852 |
 
 ## Getting Started
 
@@ -94,7 +94,7 @@ INFURA_API_KEY= ""
 
 ### Deploying
 
-You can run `npx hardhat --network rinkeby deploy` to deploy contracts to the testnet. This will deploy all our contracts and connect them to the official Gnosis Safe contracts.
+You can run `npx hardhat --network goerli deploy` to deploy contracts to the testnet. This will deploy all our contracts and connect them to the official Gnosis Safe contracts.
 
 Run `npx hardhat etherscan-verify` to verify contracts on etherscan
 
