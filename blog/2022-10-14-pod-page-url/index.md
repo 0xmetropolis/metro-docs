@@ -1,6 +1,6 @@
 ---
-slug: 2022-09-20-pod-page-url
-title: Sep 20, 2022
+slug: 2022-10-14-pod-page-url
+title: Oct 14, 2022
 authors: [chun, danwu]
 tags: [changelog, product, pod-url]
 ---
@@ -17,3 +17,8 @@ New features and improvements.
 ## Changed
 
 - Pod page URL handling is improved. Previously, users could enter a pod's ENS name (for example, `metropolis.pod.xyz`) into their browser's address bar to visit the pod page (https://metropolis.pod.xyz). This still works, but the user will be now redirected to `pod.xyz/<pod-name>` (for example, https://pod.xyz/metropolis).
+- With the deprecation of Rinkeby, we redeployed our contracts on Goerli. You can find the Goerli contract addresses [here](https://docs.metropolis.space/docs/smart-contracts/metropolis-contracts).
+
+## Fixed
+
+- Pod metadata and NFT images in social link previews.
