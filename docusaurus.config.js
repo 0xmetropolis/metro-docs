@@ -140,7 +140,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/0xmetropolis',
+                href: 'https://twitter.com/0xMetropolis',
               },
             ],
           },
