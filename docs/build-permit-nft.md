@@ -9,7 +9,7 @@ title: Build Permit NFTs
 
 Metropolis is currently in limited beta. This means that we’re slowly opening up access to DAOs and organizations to create digital cities with pods. This process looks as follows.
 
-- New DAOs will be invited to join the Metropolis each week. This invite comes in the form of a “Build Permit” NFT, which will be airdropped to the Gnosis Safe multi-sigs associated with these DAOs.
+- New DAOs will be invited to join the Metropolis. This invite comes in the form of a “Build Permit” NFT, which will be airdropped to the Gnosis Safe multi-sigs associated with these DAOs.
 - Simply by being a signer on a Gnosis Safe that holds a Build Permit, you gain access to Metropolis.
 - Gaining access to Metropolis means you have full access to our app. You can create a new pod or podify *any* Gnosis Safe that you are a signer of — not just the Safe that holds the Build Permit.
 
