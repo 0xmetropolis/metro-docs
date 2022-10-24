@@ -46,7 +46,7 @@ Technically, this is possible with a custom module in Gnosis Safe, but not somet
 
 ## Is Metropolis a DAO?
 
-Metropolis not yet a DAO. The project is run and built by a small team to ensure speedy development. The Metropolis team spends much of its time speaking to and working with DAO operators to identify key coordination problems to solve for.
+Metropolis is not yet a DAO. The project is run and built by a small team to ensure speedy development. The Metropolis team spends much of its time speaking to and working with DAO operators to identify key coordination problems to solve for.
 
 ## Are pods trustware or socialware?
 
@@ -54,4 +54,4 @@ Pods are trustware, because they create assurances without incurring a high soci
 
 ## **Are Metropolis smart contracts audited?**
 
-Yes! Metropolis smart contracts responsible for pod creation and membership management were audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Gnosis Safe. Audits are underway for 2022 as of August. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
+Yes! Metropolis smart contracts responsible for pod creation and membership management were audited three times during the summer and fall of 2021 by Consensys Diligence, Quantstamp, and the internal auditor at Gnosis Safe. Audits are underway for 2022 as of August. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
