@@ -24,9 +24,9 @@ When enabling the Metropolis module in your Safe, note that:
 
 ### What risks are there with podifying my safe?
 
-While podifying your safe, you can choose to add an admin to your pod. The admin has certain privileges, such as the ability to add and remove members from the safe/pod unilaterally. This could be used to take control of a safe and its assets, so make sure your admin is trusted, or opt to not have an admin.
+When podifying your Safe, you can choose to add a manager to your pod. The manager has certain privileges, such as the ability to add and remove members from the pod unilaterally. This could be used to take control of the pod's underlying Safe and its assets, so make sure the pod manager is trusted, or opt to not have a manager.
 
-Additionally, once an admin is set, only the admin can revoke or give someone else the admin role, i.e., pod members cannot remove an admin.
+Additionally, once a manager is set, only the manager can revoke or give someone else the manager role, i.e., pod members cannot remove a pod manager.
 
 ## Steps To Podify Your Safe
 
