@@ -22,7 +22,7 @@ When enabling the Metropolis module in your Safe, note that:
 - Metropolis does not give anyone access to your Safe who is not already a signer when you enable the module;
 - Metropolis’ contracts are periodically audited by independent parties to minimize smart contract risk.
 
-### What risks are there with podifying my safe?
+### What risks are the with podifying my Safe?
 
 When podifying your Safe, you can choose to add a manager to your pod. The manager has certain privileges, such as the ability to add and remove members from the pod unilaterally. This could be used to take control of the pod's underlying Safe and its assets, so make sure the pod manager is trusted, or opt to not have a manager.
 
