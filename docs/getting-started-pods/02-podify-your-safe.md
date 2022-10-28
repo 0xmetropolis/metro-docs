@@ -1,34 +1,40 @@
 ---
 id: podify-your-safe
-title: Podify Your Gnosis Safe
+title: Podify Your Safe
 ---
 
-##### About podifying your Gnosis Safe.
+##### About podifying your Safe.
 
 ---
 
 ## What Does Podifying Mean?
 
-To enjoy the benefits that pods provide, your Gnosis Safe must first be *podified*. This simply means enabling the Metropolis smart contract as a module in the preferred Gnosis Safe. 
+To enjoy the benefits that pods provide, your Safe must first be *podified*. This simply means enabling the Metropolis smart contract as a module in the preferred Safe. 
 
-Podifying your Gnosis Safe is a necessary yet simple step to access all the [functionality](pod-basics/02-pod-benefits.md) in the Metropolis web app.
+Podifying your Safe is a necessary yet simple step to access all the [functionality](pod-basics/02-pod-benefits.md) in the Metropolis web app.
 
 ## How does the Metropolis module work?
 
-When enabling the Metropolis module in your Gnosis Safe, note that:
+When enabling the Metropolis module in your Safe, note that:
 
 - Metropolis does not interact with assets in the multi-sig—all Safe transactions still follow the same pathways;
-- Metropolis does not remove functionality from Gnosis Safe—all of the original features remain available to you on the Gnosis Safe app;
-- Metropolis does not give anyone access to your Gnosis Safe who is not already a signer when you enable the module;
+- Metropolis does not remove functionality from Safe—all of the original features remain available to you on the Safe app;
+- Metropolis does not give anyone access to your Safe who is not already a signer when you enable the module;
 - Metropolis’ contracts are periodically audited by independent parties to minimize smart contract risk.
+
+### What risks are the with podifying my Safe?
+
+When podifying your Safe, you can choose to add a manager to your pod. The manager has certain privileges, such as the ability to add and remove members from the pod unilaterally. This could be used to take control of the pod's underlying Safe and its assets, so make sure the pod manager is trusted, or opt to not have a manager.
+
+Additionally, once a manager is set, only the manager can revoke or give someone else the manager role, i.e., pod members cannot remove a pod manager.
 
 ## Steps To Podify Your Safe
 
-Podifying a Gnosis Safe is straightforward. The Metropolis web app walks you through this process.
+Podifying a Safe is straightforward. The Metropolis web app walks you through this process.
 
 ## 1. Check Build Permit NFT[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-To podify one of your Gnosis Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz](http://pod.xyz/). 
+To podify one of your Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz](http://pod.xyz/). 
 
 ## 2. Navigate to the Metropolis app[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
@@ -36,13 +42,13 @@ You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podif
 
 ## 3. Start the Podifying Process[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-If you are eligible to podify, you will be greeted with the following screen. Hit *Podify your Gnosis Safe* to start.
+If you are eligible to podify, you will be greeted with the following screen. Hit *Podify your Safe* to start.
 
 ![Podify Safe](./img/PodifySafe0.png)
 
 ## 4. Select Safe To Podify[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-You will be presented with a list of Gnosis Safes you are a signer on. The app will check if the Metropolis module is enabled in the Safes. If the Safe you select to podify does not have the module enabled, you will be prompted to create a Gnosis Safe transaction that does this. The Metropolis module must be enabled for each Safe that you intend to podify.
+You will be presented with a list of Safes you are a signer on. The app will check if the Metropolis module is enabled in the Safes. If the Safe you select to podify does not have the module enabled, you will be prompted to create a Safe transaction that does this. The Metropolis module must be enabled for each Safe that you intend to podify.
 
 *Note: enabling the Metropolis module requires a multi-sig transaction.*
 

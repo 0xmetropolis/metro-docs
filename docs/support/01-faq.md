@@ -6,11 +6,11 @@ title: FAQ
 ##### Frequently asked questions.
 ---
 
-## **I have a Gnosis Safe, where do I start?**
+## **I have a Safe, where do I start?**
 
-You can convert an existing Gnosis Safe to a pod through our web app. Please note that access to our app is [limited](build-permit-nft.md). 
+You can convert an existing Safe to a pod through our web app. Please note that access to our app is [limited](build-permit-nft.md). 
 
-You can enable the Metropolis module on any Gnosis Safe that you are a signer on - our web app will walk you through this process and create the proposal for you. Once all of your Gnosis Safe signers have approved to add the Metropolis module to your Safe, you can complete the podification of your Safe through the Metropolis web app. 
+You can enable the Metropolis module on any Safe that you are a signer on - our web app will walk you through this process and create the proposal for you. Once all of your Safe signers have approved to add the Metropolis module to your Safe, you can complete the podification of your Safe through the Metropolis web app.
 
 ## Are pods on-chain?
 
@@ -22,7 +22,7 @@ Metropolis does ***not*** have a token. Do not accept tokens from anyone claimin
 
 ## **Are pod approvals recorded on-chain?**
 
-Pods use Gnosis Safe for voting, which are more like approvals than votes. Executed Safe proposals have its approvals logged on-chain. Pods, however, use gas-less voting, meaning that approvals are stored off-chain while the proposal is live. When the approval threshold is met, everything gets ratified on-chain in one transaction.
+Pods use Safe for voting, which are more like approvals than votes. Executed Safe proposals have its approvals logged on-chain. Pods, however, use gas-less voting, meaning that approvals are stored off-chain while the proposal is live. When the approval threshold is met, everything gets ratified on-chain in one transaction.
 
 ## **Can I adjust my pod membership NFT?**
 
@@ -42,7 +42,7 @@ We’re actively developing and maintaining our [Metropolis SDK](https://docs.me
 
 ## Is optimistic governance possible with pods?
 
-Technically, this is possible with a custom module in Gnosis Safe, but not something that is natively supported in our current iteration.
+Technically, this is possible with a custom module in Safe, but not something that is natively supported in our current iteration.
 
 ## Is Metropolis a DAO?
 
@@ -54,4 +54,4 @@ Pods are trustware, because they create assurances without incurring a high soci
 
 ## **Are Metropolis smart contracts audited?**
 
-Yes! Metropolis smart contracts responsible for pod creation and membership management were audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Gnosis Safe. Audits are underway for 2022 as of August. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
+Yes! Metropolis smart contracts responsible for pod creation and membership management were audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. Audits are underway for 2022 as of August. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).

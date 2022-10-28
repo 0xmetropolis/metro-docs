@@ -22,7 +22,7 @@ With this rebrand, we are also releasing a few major updates to our product:
 
 At Metropolis, we are intently focused on ensuring signers of existing multi-sigs have the smoothest experience possible when supercharging their Safe with Metropolis.
 
-From within our UI, existing signers can now easily create a Gnosis Safe transaction to enable the Metropolis module. Once that transaction is approved and executed by necessary signers, users can proceed from within our app to assign an ENS name and NFT image for their to-be-podified Safe! 
+From within our UI, existing signers can now easily create a Safe transaction to enable the Metropolis module. Once that transaction is approved and executed by necessary signers, users can proceed from within our app to assign an ENS name and NFT image for their to-be-podified Safe! 
 
 ## Improved membership management
 
@@ -37,8 +37,8 @@ With this update, operators can also batch all additions and removals that are p
 We released a new version of our pod controller with the following updates:
 
 - Batch mint and burn functions
-- Now using CREATE2 when creating pods, reserves the Gnosis Safe address on other networks
-- Now only pod managers can disable the Metropolis module (thereby revoking the pod manager). In addition, the pod manager can remove this restriction which allows pod members to enable additional Gnosis Safe modules.
+- Now using CREATE2 when creating pods, reserves the Safe address on other networks
+- Now only pod managers can disable the Metropolis module (thereby revoking the pod manager). In addition, the pod manager can remove this restriction which allows pod members to enable additional Safe modules.
 
 Those with existing pods can upgrade their pod to the latest version through our UI.
 

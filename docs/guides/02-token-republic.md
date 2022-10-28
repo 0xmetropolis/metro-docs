@@ -8,7 +8,7 @@ title: Token Republic
 
 The token republic model gives token holders the ultimate authority over pods by letting them vote to modify pod configurations.
 
-Token voters can make these decisions through on-chain governance like the Governor contract or through off-chain voting through Snapshot + Gnosis multisigs.
+Token voters can make these decisions through on-chain governance like the Governor contract or through off-chain voting through Snapshot + Safe multisigs.
 
 By delegating a pod’s manager key to a token holder empowered voting mechanism, DAOs can set voting and quorum criteria in order to add, remove, or modify pod configurations.
 

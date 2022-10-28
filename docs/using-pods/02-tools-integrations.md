@@ -43,4 +43,4 @@ Dework is a platform for web3 teams to pay contributors. Pods can use Dework to 
 
 ### Drips
 
-Drips is a protocol that allows any creator to generate continuous DAI stream from their communities without relying on a bank account or extracting platforms. Pods can leverage their Gnosis Safe to create DAI streams to and from their multi-sig.
+Drips is a protocol that allows any creator to generate continuous DAI stream from their communities without relying on a bank account or extracting platforms. Pods can leverage their Safe to create DAI streams to and from their multi-sig.

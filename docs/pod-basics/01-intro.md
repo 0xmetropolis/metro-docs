@@ -27,8 +27,8 @@ When you create a pod, you determine its name (e.g., metrovibes). This will be a
 
 Your full pod ENS name (e.g., metrovibes.pod.xyz) will also serve as your pod URL. This can serve as the "home page" for your pod and provide community members and partners visibility into who the pod members are. 
 
-## Gnosis Safe
+## Safe
 
-Metropolis is a lightweight permissions wrapper around a [Gnosis Safe multi-sig wallet](https://gnosis-safe.io/). All features and functionality that a Safe comes with are unaffected, allowing for interoperability with other web3 tools. 
+Metropolis is a lightweight permissions wrapper around a [Safe multi-sig wallet](https://gnosis-safe.io/). All features and functionality that a Safe comes with are unaffected, allowing for interoperability with other web3 tools. 
 
-When pod members get added or removed, they are also being added or removed from the underlying Gnosis Safe.
+When pod members get added or removed, they are also being added or removed from the underlying Safe.
