@@ -52,6 +52,6 @@ Metropolis not yet a DAO. The project is run and built by a small team to ensure
 
 Pods are trustware, because they create assurances without incurring a high social cost. This is done by bringing certain aspects of coordination on-chain, allowing them to be enforced without human coordination. Read the original article on [*Trustware vs Socialware*](https://metropolis.mirror.xyz/Y94QCcAGqzbEERmYccJxXqgZaOJr2Oxzm2k3dUn3cbM).
 
-## **Are Metropolis smart contracts audited?**
+## Are Metropolis smart contracts audited?
 
-Yes! Metropolis smart contracts responsible for pod creation and membership management were audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. Audits are underway for 2022 as of August. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
+Yes! Metropolis smart contracts responsible for pod creation and membership management were audited most recently in October by Quantstamp. Before that, they have been audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
