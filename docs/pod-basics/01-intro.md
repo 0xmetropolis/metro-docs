@@ -9,7 +9,7 @@ title: What Are Pods?
 
 ## TL;DR
 
-Think of pods as interlocking building blocks for DAOs. They can be used to flexibly connect working groups into a single governable network.
+Think of pods as interlocking building blocks for DAOs. They can be used to flexibly connect working groups into a single governable network. 
 
 ## Pod Membership NFTs
 
@@ -25,10 +25,10 @@ When you create a pod, you determine its name (e.g., metrovibes). This will be a
 
 ## Pod URL
 
-Your full pod ENS name (e.g., metrovibes.pod.xyz) will also serve as your pod URL. This can serve as the "home page" for your pod and provide community members and partners visibility into who the pod members are.
+Your full pod ENS name (e.g., metrovibes.pod.xyz) will also serve as your pod URL. This can serve as the "home page" for your pod and provide community members and partners visibility into who the pod members are. 
 
 ## Safe
 
-Metropolis is a lightweight permissions wrapper around a [Safe multi-sig wallet](https://gnosis-safe.io/). Almost all features and functionality that a Safe comes with are unaffected, allowing for interoperability with other web3 tools. You can read about what will be affected [here](docs/getting-started-pods/02-podify-your-safe.md#what-risks-are-there-with-podifying-my-safe).
+Metropolis is a lightweight permissions wrapper around a [Safe multi-sig wallet](https://gnosis-safe.io/). All features and functionality that a Safe comes with are unaffected, allowing for interoperability with other web3 tools. 
 
 When pod members get added or removed, they are also being added or removed from the underlying Safe.
