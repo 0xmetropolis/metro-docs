@@ -9,7 +9,7 @@ title: Podify Your Safe
 
 ## What Does Podifying Mean?
 
-To enjoy the benefits that pods provide, your Safe must first be *podified*. This simply means enabling the Metropolis smart contract as a module in the preferred Safe. 
+To enjoy the benefits that pods provide, your Safe must first be _podified_. This simply means enabling the Metropolis smart contract as a module in the preferred Safe.
 
 Podifying your Safe is a necessary yet simple step to access all the [functionality](pod-basics/02-pod-benefits.md) in the Metropolis web app.
 
@@ -34,15 +34,15 @@ Podifying a Safe is straightforward. The Metropolis web app walks you through th
 
 ## 1. Check Build Permit NFT[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-To podify one of your Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz](http://pod.xyz/). 
+To podify one of your Safes, you must be a signer on a Safe that got airdropped a Build Permit NFT. Check if one of your Safes received a Build Permit NFT at [pod.xyz](http://pod.xyz/).
 
 ## 2. Navigate to the Metropolis app[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podify-safe). 
+You can access the Metropolis web app at [pod.xyz/podify](https://pod.xyz/podify-safe).
 
 ## 3. Start the Podifying Process[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-If you are eligible to podify, you will be greeted with the following screen. Hit *Podify your Safe* to start.
+If you are eligible to podify, you will be greeted with the following screen. Hit _Podify your Safe_ to start.
 
 ![Podify Safe](./img/PodifySafe0.png)
 
@@ -50,7 +50,7 @@ If you are eligible to podify, you will be greeted with the following screen. Hi
 
 You will be presented with a list of Safes you are a signer on. The app will check if the Metropolis module is enabled in the Safes. If the Safe you select to podify does not have the module enabled, you will be prompted to create a Safe transaction that does this. The Metropolis module must be enabled for each Safe that you intend to podify.
 
-*Note: enabling the Metropolis module requires a multi-sig transaction.*
+_Note: enabling the Metropolis module requires a multi-sig transaction._
 
 ![Podify Safe](./img/PodifySafe1.png)
 
@@ -64,12 +64,12 @@ The NFT image should have an aspect ratio of 1:1 and must be 800x800px or less.
 
 ## 6. Confirm[](https://docs.orcaprotocol.org/docs/getting-started-pods/creating-pods#1-navigate-to-orca-app)
 
-The final step is to confirm your selected Safe, pod name and NFT image. 
+The final step is to confirm your selected Safe, pod name and NFT image.
 
-By default, the pod will be created without a pod manager. Learn more about [*Pod Roles and Membership*](pod-basics/03-pod-roles-membership.md).
+By default, the pod will be created without a pod manager. Learn more about [_Pod Roles and Membership_](pod-basics/03-pod-roles-membership.md).
 
-If everything looks good, hit *Execute* to create a transaction that finalizes this process. Your pod page will be created and membership NFTs will be minted.
+If everything looks good, hit _Execute_ to create a transaction that finalizes this process. Your pod page will be created and membership NFTs will be minted.
 
-This step does *not* require a multi-sig transaction.
+This step does _not_ require a multi-sig transaction.
 
 ![Podify Safe](./img/PodifySafe3.png)

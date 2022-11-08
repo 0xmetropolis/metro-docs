@@ -21,7 +21,7 @@ If you want to add a new pod member, you print them a new key card. If you want 
 
 ## Pod ENS
 
-When you create a pod, you determine its name (e.g., metrovibes). This will be appended with ".pod.xyz" (e.g., metrovibes.pod.xyz) and registered with the [Ethereum Name Service](https://ens.domains/). As your pod interacts with various web3 apps, you will be the beneficiary of seeing the human-readable pod name instead of a wallet address.
+When you create a pod, you determine its name (e.g., metrovibes). This will be appended with ".pod.xyz" (e.g., metrovibes.pod.xyz) and registered with the [Ethereum Name Service](https://ens.domains/). As your pod interacts with various web3 apps, you will be the beneficiary of seeing the human-readable pod name instead of a wallet address.
 
 ## Pod URL
 
