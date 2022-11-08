@@ -54,4 +54,4 @@ Pods are trustware, because they create assurances without incurring a high soci
 
 ## Are Metropolis smart contracts audited?
 
-Yes! Metropolis smart contracts responsible for pod creation and membership management were audited most recently in October by Quantstamp. Before that, they have been audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
+Yes! Metropolis smart contracts responsible for pod creation and membership management were audited most recently in October 2022 by Quantstamp. Before that, they have been audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
