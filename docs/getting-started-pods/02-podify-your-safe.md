@@ -26,7 +26,8 @@ When enabling the Metropolis module in your Safe, note that:
 
 - When podifying your Safe, you can choose to add a manager to your pod. The manager has certain privileges, such as the ability to add and remove members from the pod unilaterally. This could be used to take control of the pod's underlying Safe and its assets, so make sure the pod manager is trusted, or opt to not have a manager.
 - Once a manager is set, only the manager can revoke or give someone else the manager role, i.e., pod members cannot remove a pod manager.
-- After enabling the Metropolis module in your Safe, you will no longer be able to add other modules to that Safe. This functionality returns if you eject the pod.
+- After enabling the Metropolis module in your Safe, the module lock will be enabled, preventing other modules from being added. The module lock can be manually disabled by a pod manager, or by ejecting the pod.
+- After enabling the Metropolis module, you will not be able to add a [Gnosis Transaction Guard](https://help.gnosis-safe.io/en/articles/5324092-what-is-a-transaction-guard) unless you eject the pod.
 
 ## Steps To Podify Your Safe
 
