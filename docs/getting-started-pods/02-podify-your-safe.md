@@ -11,7 +11,7 @@ title: Podify Your Safe
 
 To enjoy the benefits that pods provide, your Safe must first be _podified_. This simply means enabling the Metropolis smart contract as a module in the preferred Safe.
 
-Podifying your Safe is a necessary yet simple step to access all the [functionality](pod-basics/02-pod-benefits.md) in the Metropolis web app.
+Podifying your Safe is a necessary yet simple step to access all the [functionality](docs/pod-basics/02-pod-benefits.md) in the Metropolis web app.
 
 ## How does the Metropolis module work?
 
@@ -22,7 +22,7 @@ When enabling the Metropolis module in your Safe, note that:
 - Metropolis does not give anyone access to your Safe who is not already a signer when you enable the module;
 - Metropolis’ contracts are periodically audited by independent parties to minimize smart contract risk.
 
-### What risks are the with podifying my Safe?
+### What risks are there with podifying my Safe?
 
 - When podifying your Safe, you can choose to add a manager to your pod. The manager has certain privileges, such as the ability to add and remove members from the pod unilaterally. This could be used to take control of the pod's underlying Safe and its assets, so make sure the pod manager is trusted, or opt to not have a manager.
 - Once a manager is set, only the manager can revoke or give someone else the manager role, i.e., pod members cannot remove a pod manager.
