@@ -4,7 +4,7 @@ title: Nov 14, 2022
 tags: [changelog, product]
 ---
 
-New features and improvements.
+Podarchy lenses shipped!
 
 <!-- truncate -->
 
