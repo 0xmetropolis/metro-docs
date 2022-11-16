@@ -38,7 +38,7 @@ Metropolis is currently only deployed on Ethereum Mainnet and Goerli.
 
 ## How can I integrate with Metropolis?
 
-We’re actively developing and maintaining our [Metropolis SDK](https://docs.metropolis.space/docs/sdk/sdk-overview). A great way to explore integrations is to play around with our SDK to learn how your platform might consume pods. You can reach out to our team for further questions via [Discord](https://discord.gg/metropolis). 
+We’re actively developing and maintaining our [Metropolis SDK](https://docs.metropolis.space/docs/sdk/sdk-overview). A great way to explore integrations is to play around with our SDK to learn how your platform might consume pods. You can reach out to our team for further questions via [Discord](https://discord.gg/yRdfXxH9kd). 
 
 ## Is optimistic governance possible with pods?
 
@@ -54,4 +54,4 @@ Pods are trustware, because they create assurances without incurring a high soci
 
 ## Are Metropolis smart contracts audited?
 
-Yes! Metropolis smart contracts responsible for pod creation and membership management were audited most recently in October 2022 by Quantstamp. Before that, they have been audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/metropolis).
+Yes! Metropolis smart contracts responsible for pod creation and membership management were audited most recently in October 2022 by Quantstamp. Before that, they have been audited three times during the summer and fall of 2021 by Consensys Dilligence, Quantstamp, and the internal auditor at Safe. If you would like to see the final reports, please reach out to the team on [Discord](https://discord.gg/yRdfXxH9kd).
