@@ -8,7 +8,7 @@ title: FAQ
 
 ## **I have a Safe, where do I start?**
 
-You can convert an existing Safe to a pod through our web app. Please note that access to our app is [limited](build-permit-nft.md). 
+You can convert an existing Safe to a pod through our web app. Please note that access to our app is [limited](pod-beta-users.md). 
 
 You can enable the Metropolis module on any Safe that you are a signer on - our web app will walk you through this process and create the proposal for you. Once all of your Safe signers have approved to add the Metropolis module to your Safe, you can complete the podification of your Safe through the Metropolis web app.
 

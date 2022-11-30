@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: Pod Beta Users
 ---
 
@@ -7,47 +7,34 @@ title: Pod Beta Users
 
 ---
 
-We’ve chosen a select group of DAOs to have access to pods. For those that do not currently have access to Metropolis, you can request access [here](https://metropods.typeform.com/build). 
+## Beta Access
 
-## Supercharge your Safe
+Metropolis is currently in limited beta. This means that we’re slowly opening up access to DAOs and organizations to create digital cities with pods. This process looks as follows:
 
-> Pods = Safe multi-sig with a permissions layer for managing signers.
->
-> It’s a simple — but powerful — primitive, that supercharges your Safe.
-> 
-> **1) All your Safes in one interface**
-> Proposals across all your multi-sigs are aggregated into one interface ‒ making it easy for signers to quickly approve transactions.
-> 
-> **2) Manage signers with zero fuss**
-> With admin capabilities and NFTs for managing signers, mass onboarding and off-boarding contributors is simple.
-> 
-> **3) Give your Safe an identity**
-> No need to waste time and energy identifying multi-sig addresses. Every pod has a unique NFT, ENS name, and matching URL.
-> 
-> The best part? Pods don’t change your Safe—they just give it superpowers.
+- DAOs will be invited to join the Metropolis (to request an invite, please submit a [Build Permit Request](https://metropods.typeform.com/build)). This invite comes in the form of a “Build Permit” NFT, which will be airdropped to the Safe multi-sigs associated with these DAOs.
+- Simply by being a signer on a Safe that holds a Build Permit, you gain access to Metropolis.
+- Gaining access to Metropolis means you have full access to our app. You can create a new pod or podify *any* Safe that you are a signer of — not just the Safe that holds the Build Permit.
+
+To check if one of your Safes received a Build Permit NFT, go to [pod.xyz](http://pod.xyz) and connect your wallet. If you did not yet receive an airdrop or are unsure, you can submit a request using this [typeform](https://metropods.typeform.com/build).
 
 ## How It Works
+
+**Enabling the Metropolis module for a Safe**
 
 Our smart contracts do not interact with, or have access to, the assets in your Safe. These contracts can only manage who is a signer on your Safe.
 
 Metropolis contracts have been independently audited by Consensys Dilligence, Quantstamp, and the internal auditors at Safe.
 
-> **No DAO-wide votes or consensus required**
-> 
-> Enabling pods does not require that you gather consensus from the entire DAO. Pods can be enabled per-Safe, so you don’t need DAO-wide consensus for individual working groups / guilds to enable pods.
+**No DAO-wide votes or consensus required**
 
-## Next Steps
+Pods are enabled per-Safe, so you don’t need DAO-wide consensus for individual working groups or guilds to enable pods.
 
-Beta access means you can:
+## How to Use Pods
 
-1. **Enable the pod module for existing Safes**
+Once you have access to pods, you are able to:
 
-    *Note: enabling the pod module requires approval from multi-sig signers. Feel free to share this page with other signers to make the process of enabling pods smoother.*
+1. **[Podify existing Safes](getting-started-pods/02-podify-your-safe.md)** (which enables the pod module for a given Safe)
 
-2. **Create new pods** (which creates a new Safe with the pod module enabled from the start)
+2. **[Create new pods](getting-started-pods/01-intro.md)** (which creates a new Safe with the pod module enabled from the start)
 
 You can do all of this through our interface at [pod.xyz](https://pod.xyz/).
-
-## What’s Coming
-
-Standalone pods are powerful tools, but they’re even more powerful when you click them together. From pod templates to a visual podarchy builder, we can’t wait for you to see what we’ve got in store. Make sure you’re following us on [Twitter](https://twitter.com/0xmetropolis) to stay updated on all things pods.

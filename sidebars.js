@@ -15,7 +15,7 @@
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['intro','build-permit-nft','pod-beta-users']
+      items: ['intro','pod-beta-users']
     },
     {
       type: 'category',
