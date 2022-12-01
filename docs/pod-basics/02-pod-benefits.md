@@ -3,7 +3,7 @@ id: pod-benefits
 title: Benefits Of Pods
 ---
 
-##### The benefits of using pods.
+##### We love pods, here's why you should too.
 
 ---
  
