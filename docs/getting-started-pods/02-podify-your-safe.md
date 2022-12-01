@@ -67,7 +67,7 @@ The NFT image should have an aspect ratio of 1:1 and must be 800x800px or less.
 
 The final step is to confirm your selected Safe, pod name and NFT image.
 
-By default, the pod will be created without a pod manager. Learn more about [_Pod Roles and Membership_](pod-basics/03-pod-roles-membership.md).
+By default, the pod will be created without a pod manager. Learn more about [_Pod Roles and Membership_](docs/pod-basics/03-pod-roles-membership.md).
 
 If everything looks good, hit _Execute_ to create a transaction that finalizes this process. Your pod page will be created and membership NFTs will be minted.
 

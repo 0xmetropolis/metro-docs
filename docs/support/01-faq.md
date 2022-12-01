@@ -30,7 +30,7 @@ Yes! What's the point of podifying, if you can't do it in style? Pods can set an
 
 ## **What are pod managers?**
 
-Pod manager are a special role. They have unilateral control over pod membership, but do not have any approval rights for proposals. To learn more about pod roles go to [*Pod Roles and Memberships*](pod-basics/03-pod-roles-membership.md).
+Pod manager are a special role. They have unilateral control over pod membership, but do not have any approval rights for proposals. To learn more about pod roles go to [*Pod Roles and Memberships*](docs/pod-basics/03-pod-roles-membership.md).
 
 ## Which blockchains is Metropolis deployed on?
 
