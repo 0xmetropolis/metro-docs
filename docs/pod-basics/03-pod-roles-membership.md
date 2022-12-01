@@ -1,5 +1,5 @@
 ---
-id: pod-roles-and-memberhsip
+id: pod-roles-and-membership
 title: Pod Roles and Membership
 ---
 ##### Defining roles and membership structures of pods.
