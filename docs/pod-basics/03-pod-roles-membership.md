@@ -28,6 +28,8 @@ A pod **manager** has executive power to add or remove members of a pod without 
 * A smart contract can serve as the manager of a pod.
 * A manager can also be a member of a child pod. In this situation, the manager is a member and can vote on membership/asset management proposals.
 
+## Pods as Members and Managers
+
 ### Member Pods
 
 A pod can also be a member of another pod - we refer to these as member pods. These nested pods have the same ability to create and approve proposals as other pod members. 
