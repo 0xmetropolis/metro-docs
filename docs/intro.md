@@ -3,10 +3,10 @@ sidebar_position: 1
 title: Introduction
 ---
 
-##### Welcome to Metropolis, the on-chain permissions layer for DAOs.
+##### Welcome to Metropolis!
 
 ---
 
 ## What Is Metropolis?
 
-Metropolis is the on-chain permissions layer for DAO working groups. Our permissions layer manifests itself as a wrapper around a Safe, which creates a governance primitive we call **pods**.
+Metropolis is the organizational source of truth for DAOs, helping organizations put their blueprint on-chain through pods — a lightweight permissions wrapper around Safe multi-sig.
