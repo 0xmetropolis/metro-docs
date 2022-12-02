@@ -7,7 +7,7 @@ title: Creating A Pod
 ---
 
 
-Creating a pod is simple and can be done through the Metropolis web app.
+When you create a pod, you are creating a new Safe with the Metropolis module enabled from the start. You can do this in just a couple of minutes through the Metropolis web app.
 
 ## 1. Navigate to Metropolis app
 
