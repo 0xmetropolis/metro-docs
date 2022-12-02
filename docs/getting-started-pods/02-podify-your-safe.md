@@ -9,9 +9,9 @@ title: Podify Your Safe
 
 ## What Does Podifying Mean?
 
-You don't need to create new pods from scratch in order to use Metropolis. Instead, you can "podify" an existing Safe. Podifying a Safe means enabling the Metropolis module for the preferred Safe. This process does not interact with assets in the Safe or remove Safe functionality.
+You don't need to create new pods from scratch in order to use Metropolis. Instead, you can "podify" an existing Safe.
 
-Once you podify your Safe, you get access to all of [functionality](docs/pod-basics/02-pod-benefits.md) pods have to offer.
+Podifying a Safe means enabling the Metropolis module for the preferred Safe. This process does not interact with assets in the Safe or remove Safe functionality. Once you podify your Safe, you get access to all of [functionality](docs/pod-basics/02-pod-benefits.md) pods have to offer.
 
 ## How does the Metropolis module work?
 
