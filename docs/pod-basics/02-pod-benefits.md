@@ -3,7 +3,7 @@ id: pod-benefits
 title: Benefits Of Pods
 ---
 
-##### We love pods, here's why you should too.
+##### We love pods, here's why you will too.
 
 ---
  
@@ -14,7 +14,7 @@ The [manager role](pod-roles-and-membership#managers) allows any EOA or smart co
  
 ## Permissions groups
  
-If you're doing anything on-chain, you probably have a multi-sig with important permissions.
+If your DAO is doing anything on-chain, you probably have a multi-sig with important permissions.
  
 Pods provide a uniform way to manage who has access to those permissions - including the ability to swap addresses in and out of permissions groups in just a few clicks. No more bespoke scripts for managing role-based access.
  
