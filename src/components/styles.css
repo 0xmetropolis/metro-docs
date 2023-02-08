@@ -26,6 +26,7 @@
 }
 
 .getting-started-container {
+  background-color: #f7f7fd;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -48,7 +49,7 @@
   line-height: 50px;
   letter-spacing: -0.02em;
   font-feature-settings: 'tnum' on, 'lnum' on;
-  color: #4535D8;
+  color: #383168;
   margin-bottom: 50px;
 }
 
@@ -107,7 +108,7 @@
   font-weight: 500;
   font-size: 30px;
   line-height: 40px;
-  color: #4535D8;
+  color: #383168;
   margin-bottom: 10px;
   margin-right: 10px;
 }
