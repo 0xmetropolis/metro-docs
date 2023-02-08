@@ -51,12 +51,25 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    </header>
+  );
+}
+
+/* IF YOU WANT HERO BANNER WITH SECTION, USE THIS
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <HeroBannerLogo className={styles.logoText} />
       </div>
     </header>
   );
 }
+*/
+
+
 /*
 Bring these back into HomepageHeader above if we want text
 <h1 className="hero__title">{siteConfig.title}</h1>

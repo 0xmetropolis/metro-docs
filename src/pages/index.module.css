@@ -3,13 +3,20 @@
  * and scoped locally.
  */
 
-.heroBanner {
+
+
+ .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
+  flex: 1 0 auto;
+  background: #e75714;
+}
+
+ .heroBanner {
   padding: 1rem 0;
   padding-left: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: white;
+  background-color: #f7f7fd;
 }
 
 @media screen and (max-width: 996px) {
@@ -28,8 +35,8 @@
   font-weight: 500;
   font-size: 35px;
   line-height: 25px;
-  color: #4535D8;
-  background-color: white;
+  color: #383168;
+  background-color: #f7f7fd;
   text-align: left;
   margin-bottom: 0;
   padding-left: 30px;
@@ -37,6 +44,7 @@
 }
 
 .gettingStartedFlexBox {
+  background-color: #f7f7fd;
   display: flex;
   flex-direction: row;
   padding-top: 50px;

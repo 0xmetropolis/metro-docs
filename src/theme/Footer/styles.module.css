@@ -16,15 +16,12 @@
   
   .footer {
     z-index: 1;
-    background: white;
+    background: #f7f7fd;
     width: 100%;
-    height: 100%;
-    border-top: 1px solid #EBEAFB;
-    padding-left: 30px;
-    padding-top: 18px;
-    padding-bottom: 16px;
+    padding-right: 30px;
+    padding-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     transform-style: preserve-3d;
     align-items: center;
   }
@@ -40,7 +37,7 @@
     font-size: 15px;
     line-height: 25px;
     color: #140C06;
-    margin: 0;
+    margin-left: 10px;
   }
   
   .footerParagraph {
@@ -70,7 +67,7 @@
   }
   
   .textFlexbox:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
   
   .textFlexbox:hover .footerParagraph {
@@ -79,7 +76,7 @@
   
   .footerLinksFlexbox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
   }
   
   .logoFlexbox {

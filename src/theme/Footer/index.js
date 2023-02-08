@@ -21,12 +21,8 @@
            rel="noopener noreferrer"
          >
            <div className={styles.footerTitleFlexbox}>
-             <QuestionsIcon className={styles.footerIcon} />
-             <h3 className={styles.footerTitle}>Questions?</h3>
+             <h3 className={styles.footerTitle}>Support</h3>
            </div>
-           <p className={styles.footerParagraph}>
-             Get help in our Discord.
-           </p>
          </a>
          <a
            href="https://twitter.com/0xMetropolis"
@@ -35,17 +31,11 @@
            className={styles.textFlexbox}
          >
            <div className={styles.footerTitleFlexbox}>
-             <TwitterIcon className={styles.footerIcon} />
-             <h3 className={styles.footerTitle}>Stay updated</h3>
+             <h3 className={styles.footerTitle}>Twitter</h3>
            </div>
-           <p className={styles.footerParagraph}>
-             Follow us on Twitter for release updates.
-           </p>
          </a>
        </div>
-       <div className={styles.logoFlexbox}>
-         <MetropolisLogo className={styles.MetropolisLogo} />
-       </div>
+    
      </div>
    )
  }
