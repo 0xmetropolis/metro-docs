@@ -14,7 +14,19 @@
  function Footer() {
    return (
      <div className={styles.footer}>
+       <div className={styles.footerContainer}>
        <div className={styles.footerLinksFlexbox}>
+       <a
+           href="https://twitter.com/0xMetropolis"
+           target="_blank"
+           rel="noopener noreferrer"
+           className={styles.textFlexbox}
+         >
+           <div className={styles.footerTitleFlexbox}>
+           <ArrowIcon className={styles.footerIcon} />
+             <h3 className={styles.footerTitle}>Twitter</h3>
+           </div>
+         </a>    
          <a
            className={styles.textFlexbox}
            href="https://discord.gg/metropolis"
@@ -26,21 +38,8 @@
              <h3 className={styles.footerTitle}>Support</h3>
            </div>
          </a>
-
-
-         <a
-           href="https://twitter.com/0xMetropolis"
-           target="_blank"
-           rel="noopener noreferrer"
-           className={styles.textFlexbox}
-         >
-           <div className={styles.footerTitleFlexbox}>
-           <ArrowIcon className={styles.footerIcon} />
-             <h3 className={styles.footerTitle}>Twitter</h3>
-           </div>
-         </a>
        </div>
-    
+       </div>
      </div>
    )
  }
