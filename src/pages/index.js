@@ -94,7 +94,7 @@ export default function Home() {
       <main>
       <div className={styles.layoutFlexBox}>
           <div className={styles.gettingStartedFlexBox}>
-            <p className={styles.gettingStarted}>Getting started</p>
+            <p className={styles.gettingStarted}>Get started with Metropolis</p>
           </div>
       </div>
           <GettingStartedCards />
