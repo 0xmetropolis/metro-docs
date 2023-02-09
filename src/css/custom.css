@@ -8,10 +8,12 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 :root {
   --ifm-color-primary: #383168;
-  --ifm-color-primary-dark: #3727cb;
+  --ifm-color-primary-dark: #4535d8; /* use this for active and hover colors */
+
   --ifm-color-primary-darker: #3425c0;
   --ifm-color-primary-darkest: #2b1e9e;
   --ifm-color-primary-light: #5a4cdc;
@@ -19,8 +21,8 @@
   --ifm-color-primary-lightest: #8379e5;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: 'Inter';
-  --ifm-heading-font-family: 'Poppins';
+  --ifm-font-family-base: 'IBM Plex Serif';
+  --ifm-heading-font-family: 'IBM Plex Sans';
   --ifm-font-size-base: 16px; /* increase base font from 16 to 18px */
 
   /* override defaults to look like web app */
@@ -32,18 +34,18 @@
   --ifm-navbar-item-padding-vertical: 5px;
   --ifm-global-shadow-lw: 0 1px 2px 0 #f7f7fd;
   --ifm-menu-color: #140C06;
-  --ifm-menu-color-background-active: #FBFCFE;
-  --ifm-menu-color-background-hover: #FBFCFE;
+  --ifm-menu-color-active: #4535d8; 
+  --ifm-menu-color-background-active: #EBEAFB;
+  --ifm-menu-color-background-hover: #EBEAFB;
   --ifm-breadcrumb-item-background-active: #EBEAFB;
-
+  --ifm-breadcrumb-border-radius: 5px;
   --ifm-color-emphasis-300: #EBEAFB;
 
   /*--ifm-menu-color: white;*/
   --ifm-menu--active-color: #4535d8;
+
 }
 
-
-  
 
 /*CSS for desktop version */
 
@@ -58,8 +60,9 @@
 }
 
 .navbar__item {
-  margin-right: .5rem;
-  font-size: 14px;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 500;
+  font-size: 16px;
   line-height: 20px;
   padding-bottom: 1px;
 }
@@ -70,18 +73,22 @@
 
 .navbar__link--active {
   color: #4535d8;
-  text-decoration: underline;
+  /*text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-position: under;
   text-underline-offset: 4px;
-  font-weight: 600;
+  font-weight: 600;*/
 }
 
 .navbar__link--active:hover {
   color: #4535d8;
-  text-decoration: underline;
+  /*text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-position: under;
+  text-underline-position: under;*/
+}
+
+.menu {
+  font-family: var(--ifm-heading-font-family);
 }
 
 .menu__list .menu__list {
@@ -97,8 +104,11 @@
 }
 
 
+
+
 /*custom CSS for launch app button on nav bar*/
 .launchAppNavButton {
+  margin-left: 5px;
 	background-color:#EBEAFB;
 	border-radius:6px;
   padding: 5px 10px;
@@ -111,6 +121,11 @@
 .launchAppNavButton:active {
 	position:relative;
 	top:1px;
+}
+
+/* background color for code blocks */
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  background-color: white;
 }
 
         
@@ -194,6 +209,27 @@ article h2 {
 }
 article h3 {
   font-size: 1.15rem !important;
+}
+
+/* format for text near logo on navbar */
+.navbarMetropolis {
+  color: var(--ifm-color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.navbarMetropolis:hover {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__brand {
+  margin-right: -16px;
+}
+
+.navbar__logo {
+  height: 20px;
+  margin-top: 0px;
 }
 
 /*navbar Github stuff*/

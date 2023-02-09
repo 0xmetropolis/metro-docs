@@ -9,6 +9,7 @@
  import QuestionsIcon from '../../../static/img/questionsIcon.svg'
  import TwitterIcon from '../../../static/img/twitterIcon.svg'
  import MetropolisLogo from '../../../static/img/homepageLogo.svg'
+ import ArrowIcon from '../../../static/img/footerArrow.svg'
  
  function Footer() {
    return (
@@ -21,9 +22,12 @@
            rel="noopener noreferrer"
          >
            <div className={styles.footerTitleFlexbox}>
+           <ArrowIcon className={styles.footerIcon} />
              <h3 className={styles.footerTitle}>Support</h3>
            </div>
          </a>
+
+
          <a
            href="https://twitter.com/0xMetropolis"
            target="_blank"
@@ -31,6 +35,7 @@
            className={styles.textFlexbox}
          >
            <div className={styles.footerTitleFlexbox}>
+           <ArrowIcon className={styles.footerIcon} />
              <h3 className={styles.footerTitle}>Twitter</h3>
            </div>
          </a>

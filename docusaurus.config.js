@@ -97,14 +97,17 @@ const config = {
         },
         items: [
           {
+            to: `/`, label: 'Metropolis', position: 'left', className: 'navbarMetropolis',
+          },
+          {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Home',
           },
-          {to: '/docs/sdk/sdk-overview', label: 'SDK', position: 'left'},
-          {to: '/docs/smart-contracts/metropolis-contracts', label: 'Contracts', position: 'left'},
-          {to: '/changelog', label: 'Changelog', position: 'left'},
+          {to: '/docs/sdk/sdk-overview', label: 'SDK', position: 'right'},
+          {to: '/docs/smart-contracts/metropolis-contracts', label: 'Contracts', position: 'right'},
+          {to: '/changelog', label: 'Changelog', position: 'right'},
 /**       {to: '/docs/guides/pod-blueprints/', label:'Pod Blueprints', position: 'right'}, */ 
           {
             href: 'https://github.com/orcaprotocol',
