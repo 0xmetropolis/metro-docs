@@ -3,13 +3,6 @@
  * and scoped locally.
  */
 
-
-
- .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
-  flex: 1 0 auto;
-  background: #e75714;
-}
-
  .heroBanner {
   padding: 1rem 0;
   padding-left: 0;
@@ -32,6 +25,7 @@
 }
 
 .gettingStarted {
+  font-family: var(--ifm-heading-font-family);
   font-weight: 500;
   font-size: 35px;
   line-height: 25px;
