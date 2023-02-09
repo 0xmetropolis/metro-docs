@@ -50,8 +50,7 @@
 
 /*CSS for desktop version */
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
-  flex: 1 0 auto;
+.main-wrapper {
   background: #f7f7fd;
 }
 
