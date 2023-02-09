@@ -39,6 +39,7 @@
   --ifm-menu-color-background-hover: #EBEAFB;
   --ifm-breadcrumb-item-background-active: #EBEAFB;
   --ifm-breadcrumb-border-radius: 5px;
+  --ifm-breadcrumb-color-active: var(--ifm-color-primary-dark);
   --ifm-color-emphasis-300: #EBEAFB;
 
   /*--ifm-menu-color: white;*/
@@ -128,6 +129,27 @@
   background-color: white;
 }
 
+/* format for text near logo on navbar */
+.navbarMetropolis {
+  color: var(--ifm-color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.navbarMetropolis:hover {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__brand {
+  margin-right: -16px;
+}
+
+.navbar__logo {
+  height: 20px;
+  margin-top: 0px;
+}
+
         
 /*END css for Desktop version*/
 
@@ -178,6 +200,9 @@
     color: #4535d8;
     background: #E2E2FA;
   } 
+  .navbarMetropolis {
+    display: none; /* hide the Metropolis navbar text on mobile */
+  }
 }
 
 /* dark mode currently DISABLED in docusaurus.config.js file
@@ -211,26 +236,6 @@ article h3 {
   font-size: 1.15rem !important;
 }
 
-/* format for text near logo on navbar */
-.navbarMetropolis {
-  color: var(--ifm-color-primary);
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 3px;
-}
-
-.navbarMetropolis:hover {
-  color: var(--ifm-color-primary);
-}
-
-.navbar__brand {
-  margin-right: -16px;
-}
-
-.navbar__logo {
-  height: 20px;
-  margin-top: 0px;
-}
 
 /*navbar Github stuff*/
 .pseudo-icon {

@@ -7,9 +7,9 @@ export const gettingStartedContent = [
     },
     {
       docNumber: '02',
-      docTitle: 'Pod Beta Access →',
-      docSubtopic: 'ACCESS',
-      docLink: '/docs/pod-beta-users',
+      docTitle: 'Create and Manage Pods →',
+      docSubtopic: 'CREATE AND MANAGE',
+      docLink: '/docs/getting-started-pods/creating-pods',
     },
     {
       docNumber: '03',
