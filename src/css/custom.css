@@ -99,6 +99,10 @@
   font-weight: bold;
 }
 
+.pagination-nav {
+  margin-bottom: 2rem;
+}
+
 .pagination-nav__link:hover {
   border-color: #4535d8;
 }
