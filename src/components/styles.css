@@ -44,6 +44,7 @@
 
 .doc-number {
   font-style: normal;
+  font-family: var(--ifm-heading-font-family);
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;

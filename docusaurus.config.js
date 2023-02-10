@@ -82,14 +82,14 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
       },
-      announcementBar: {
+      /*announcementBar: {
         id: 'support_us',
         content:
           'Welcome to Metropolis! Check to see if you <a target="_blank" rel="noopener noreferrer" href="https://pod.xyz">qualified for our Build Permit airdrop!</a>',
         backgroundColor: '#C4BFF2',
         textColor: '#110F1F',
         isCloseable: true,
-      },
+      },*/
       navbar: {
         logo: {
           alt: 'Metropolis Logo',
