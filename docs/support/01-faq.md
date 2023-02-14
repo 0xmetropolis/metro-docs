@@ -20,15 +20,15 @@ Yes, pods are an on-chain tool. This means that users and builders benefit from 
 
 Metropolis does ***not*** have a token. Do not accept tokens from anyone claiming to promote a related token. You can see all official communications from the Metropolis team [here](https://twitter.com/0xMetropolis). 
 
-## **Are pod approvals recorded on-chain?**
+## Are pod approvals recorded on-chain?
 
 Pods use Safe for voting, which are more like approvals than votes. Executed Safe proposals have its approvals logged on-chain. Pods, however, use gas-less voting, meaning that approvals are stored off-chain while the proposal is live. When the approval threshold is met, everything gets ratified on-chain in one transaction.
 
-## **Can I adjust my pod membership NFT?**
+## Can I adjust my pod membership NFT?
 
 Yes! What's the point of podifying, if you can't do it in style? Pods can set an image of their choice to represent membership to a pod. You can change your pod NFT at any point. 
 
-## **What are pod managers?**
+## What are pod managers?
 
 Pod manager are a special role. They have unilateral control over pod membership, but do not have any approval rights for proposals. To learn more about pod roles go to [*Pod Roles and Memberships*](docs/pod-basics/03-pod-roles-membership.md).
 
