@@ -47,28 +47,17 @@ import styles from './index.module.css';
 import HeroBannerLogo from '../../static/img/heroBannerLogo.svg'
 import OpenGraphLogo from '../../static/img/openGraphLogo.png'
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-    </header>
-  );
-}
-
-/* IF YOU WANT HERO BANNER WITH SECTION, USE THIS
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className="hero-container">
         <HeroBannerLogo className={styles.logoText} />
       </div>
     </header>
   );
 }
-*/
-
 
 /*
 Bring these back into HomepageHeader above if we want text
