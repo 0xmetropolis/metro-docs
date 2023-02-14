@@ -6,7 +6,7 @@ title: FAQ
 ##### Frequently asked questions.
 ---
 
-## **I have a Safe, where do I start?**
+## I have a Safe, where do I start?
 
 You can convert an existing Safe to a pod through our web app. Please note that access to our app is [limited](pod-beta-users.md). 
 
