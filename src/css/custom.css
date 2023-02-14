@@ -119,8 +119,16 @@
   color: var(--ifm-color-primary-dark);
 }
 
-
-
+.heroBanner_src-pages-index-module {
+  padding: 1rem 0;
+  padding-left: 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #383066;
+  height: 20rem;
+}
 
 /*custom CSS for launch app button on nav bar*/
 .launchAppNavButton {
@@ -217,6 +225,17 @@
   } 
   .navbarMetropolis {
     display: none; /* hide the Metropolis navbar text on mobile */
+  }
+
+  .heroBanner_src-pages-index-module {
+    padding: 1rem 0;
+    padding-left: 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: #383066;
+    height: 10rem;
   }
 }
 
