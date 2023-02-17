@@ -15,7 +15,7 @@
   }
   
   .footer {
-    background: #f7f7fd;
+    background: var(--ifm-navbar-background-color);
     position: fixed;
     left: 0%;
     top: auto;
