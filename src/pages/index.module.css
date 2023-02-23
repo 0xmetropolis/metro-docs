@@ -36,7 +36,7 @@
   font-size: 35px;
   line-height: 25px;
   color: #383168;
-  background-color: #f7f7fd;
+  background-color: var(--ifm-navbar-background-color);
   text-align: left;
   margin-bottom: 0;
   padding-left: 30px;
@@ -44,7 +44,7 @@
 }
 
 .gettingStartedFlexBox {
-  background-color: #f7f7fd;
+  background-color: var(--ifm-navbar-background-color);
   display: flex;
   flex-direction: row;
   padding-top: 50px;

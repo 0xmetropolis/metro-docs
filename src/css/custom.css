@@ -33,8 +33,10 @@
   --ifm-navbar-background-color: #fafafa;
   --ifm-navbar-link-color: #383168;
   --ifm-navbar-item-padding-horizontal: 15px;
+  --ifm-navbar-padding-vertical: 0.47rem;
   --ifm-navbar-item-margin-horizontal: 15px;
-  --ifm-navbar-item-padding-vertical: 5px;
+  --ifm-navbar-item-padding-vertical: 3px;
+  --ifm-navbar-height: auto;
   --ifm-global-shadow-lw: 0 1px 2px 0 #f7f7fd;
   --ifm-menu-color: #140C06;
   --ifm-menu-color-active: #4535d8; 
@@ -72,6 +74,7 @@ h5 {
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 1px;
+  padding-left: 1rem;
 }
 
 .navbar__link:hover {
@@ -143,8 +146,8 @@ h5 {
 .launchAppNavButton {
   margin-left: 5px;
 	background-color:#EBEAFB;
-	border-radius:6px;
-  padding: 5px 10px;
+	border-radius:8px;
+  padding: 0.5rem 0.4rem;
 	color:#4535D8;
 }
 .launchAppNavButton:hover {
