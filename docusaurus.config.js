@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Metropolis Docs',
-  tagline: 'The on-chain permissions layer for DAOs',
+  tagline: 'Search and protect on-chain permissions.',
   url: 'https://docs.metropolis.space',
   baseUrl: '/',
   onBrokenLinks: 'throw',
