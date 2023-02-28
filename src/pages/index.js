@@ -53,7 +53,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="hero-container">
-        <HeroBannerLogo className={styles.logoText} />
+        <HeroBannerLogo className={`hero-svg ${styles.logoText}`} />
       </div>
     </header>
   );
