@@ -15,8 +15,8 @@ const config = {
   favicon: 'img/favicon.png',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'orcaprotocol', // Usually your GitHub org/user name.
-  projectName: 'orca-docs', // Usually your repo name.
+  organizationName: '0xmetropolis', // Usually your GitHub org/user name.
+  projectName: 'metro-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,7 +36,7 @@ const config = {
           sidebarCollapsed: false,
 
           // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/orcaprotocol/orca-docs/blob/main/',
+          // editUrl: 'https://github.com/0xmetropolis/metro-docs/blob/main/',
         },
         blog: {
           routeBasePath: 'changelog',
@@ -44,25 +44,22 @@ const config = {
           blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Remove this to remove the "edit this page" links.
-          // editUrl:'https://github.com/orcaprotocol/orca-docs/blob/main/',
+          // editUrl:'https://github.com/0xmetropolis/metro-docs/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
         gtag: {
-          trackingID: "G-7RJY1JVFTE",
+          trackingID: 'G-7RJY1JVFTE',
           anonymizeIP: true,
-        }
-
+        },
       }),
     ],
   ],
-  plugins: [
-    'plugin-image-zoom'
-  ],
+  plugins: ['plugin-image-zoom'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    
+
     {
       image: '/img/openGraphLogo.png',
       imageZoom: {
@@ -71,7 +68,7 @@ const config = {
         // Optional medium-zoom options
         // see: https://www.npmjs.com/package/medium-zoom#options
         options: {
-          margin: 50 ,
+          margin: 50,
           background: '#fff',
           scrollOffset: 0,
           //container: '#zoom-container',
@@ -97,7 +94,10 @@ const config = {
         },
         items: [
           {
-            to: `/`, label: 'Metropolis', position: 'left', className: 'navbarMetropolis',
+            to: `/`,
+            label: 'Metropolis',
+            position: 'left',
+            className: 'navbarMetropolis',
           },
           {
             type: 'doc',
@@ -105,19 +105,24 @@ const config = {
             position: 'right',
             label: 'Home',
           },
-          {to: '/docs/sdk/sdk-overview', label: 'SDK', position: 'right'},
-          {to: '/docs/smart-contracts/metropolis-contracts', label: 'Contracts', position: 'right'},
-          {to: '/changelog', label: 'Changelog', position: 'right'},
-/**       {to: '/docs/guides/pod-blueprints/', label:'Pod Blueprints', position: 'right'}, */ 
+          { to: '/docs/sdk/sdk-overview', label: 'SDK', position: 'right' },
           {
-            href: 'https://github.com/orcaprotocol',
+            to: '/docs/smart-contracts/metropolis-contracts',
+            label: 'Contracts',
+            position: 'right',
+          },
+          { to: '/changelog', label: 'Changelog', position: 'right' },
+          /**       {to: '/docs/guides/pod-blueprints/', label:'Pod Blueprints', position: 'right'}, */
+          {
+            href: 'https://github.com/0xmetropolis',
             className: 'pseudo-icon github-icon',
             position: 'right',
           },
           {
             type: 'html',
             className: 'launchAppNavButton',
-            value: '<a href="https://pod.xyz/" target="_blank" class="launchAppNavButton">Launch App</a>',
+            value:
+              '<a href="https://pod.xyz/" target="_blank" class="launchAppNavButton">Launch App</a>',
             position: 'right',
           },
         ],
@@ -156,7 +161,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/orcaprotocol',
+                href: 'https://github.com/0xmetropolis',
               },
             ],
           },
@@ -167,8 +172,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }
-    
+    },
 };
 
 module.exports = config;

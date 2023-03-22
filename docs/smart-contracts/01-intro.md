@@ -13,37 +13,44 @@ Each membership group within Metropolis is referred to as a pod and pod membersh
 
 ## Core Addresses
 
-Source code for all Metropolis contracts can be found in this [GitHub repository](https://github.com/orcaprotocol/contracts).
-
+Source code for all Metropolis contracts can be found in this [GitHub repository](https://github.com/0xmetropolis/contracts).
 
 ### Mainnet Deployments
 
 ##### Ethereum - 1
-| **Contract**            | **Address**                                |
-| ------------            | ------------------------------------------ |
-| MemberToken              | 0x0762aa185b6ed2dca77945ebe92de705e0c37ae3 |
-| ControllerV1.4            | 0x4C98aF741e352C6551BfF9509b3f8ca9Dd4E6397  |
+
+| **Contract**   | **Address**                                |
+| -------------- | ------------------------------------------ |
+| MemberToken    | 0x0762aa185b6ed2dca77945ebe92de705e0c37ae3 |
+| ControllerV1.4 | 0x4C98aF741e352C6551BfF9509b3f8ca9Dd4E6397 |
 
 ### Testnet Deployments
+
 ##### Goerli - 5
-| **Contract**            | **Address**                                |
-| ------------            | ------------------------------------------ |
-| MemberToken              | 0xCfA504F8917d2f285070050c5664eE92aE17140D |
-| ControllerV1.4             | 0x3b1c2Aa5111D385b9eFceA6803D4e1a3c7507852 |
+
+| **Contract**   | **Address**                                |
+| -------------- | ------------------------------------------ |
+| MemberToken    | 0xCfA504F8917d2f285070050c5664eE92aE17140D |
+| ControllerV1.4 | 0x3b1c2Aa5111D385b9eFceA6803D4e1a3c7507852 |
 
 ## Getting Started
 
 ### Library Usage
+
 The NPM package includes some convenience functions for fetching deployments:
 
 ```js
-import { getDeployment, getControllerByAddress } from "@orcaprotocol/contracts";
+import { getDeployment, getControllerByAddress } from '@0xmetropolis/contracts';
 
 // Fetches the latest Controller from the mainnet
-const controller = getDeployment("ControllerLatest", 1);
+const controller = getDeployment('ControllerLatest', 1);
 // Fetching and instantiating the MemberToken contract
-const memberTokenDeployment = getDeployment("MemberToken", network);
-const MemberToken = new ethers.Contract(memberTokenDeployment.address, memberTokenDeployment.abi, provider);
+const memberTokenDeployment = getDeployment('MemberToken', network);
+const MemberToken = new ethers.Contract(
+  memberTokenDeployment.address,
+  memberTokenDeployment.abi,
+  provider
+);
 
 // You can also fetch the Controller version by the address of the deployment.
 // This is useful for fetching Controllers from Pods, as different Pod versions
@@ -52,11 +59,15 @@ const MemberToken = new ethers.Contract(memberTokenDeployment.address, memberTok
 // The Controller address tracked on the MemberToken
 const controllerAddress = await MemberToken.memberController(id);
 if (controllerAddress === ethers.constants.AddressZero) {
-  throw new Error("Pod ID was not registered on Controller");
+  throw new Error('Pod ID was not registered on Controller');
 }
 
 const controllerDeployment = getControllerByAddress(controllerAddress, network);
-const Controller = new ethers.Contract(controllerDeployment.address, controllerDeployment.abi, provider);
+const Controller = new ethers.Contract(
+  controllerDeployment.address,
+  controllerDeployment.abi,
+  provider
+);
 ```
 
 ###
@@ -132,5 +143,5 @@ The `RuleManager` manages the rules for multiple pods, each rule is an arbitrary
 
 ### SafeTeller
 
-The `SafeTeller` manages the side effects for multiple pods, before a valid token transfer the `SafeTeller` will perform owner updates to the pod's safe 
+The `SafeTeller` manages the side effects for multiple pods, before a valid token transfer the `SafeTeller` will perform owner updates to the pod's safe
 -->
