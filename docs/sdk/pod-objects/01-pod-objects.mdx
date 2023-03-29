@@ -16,11 +16,13 @@ import TabItem from '@theme/TabItem';
 Pod and Proposal are the two types available in our SDK. Types can be imported with the following:
 
 ```js
-import { Pod, Proposal } from '@orcaprotocol/orca-sdk';
+import { Pod, Proposal } from '@0xmetropolis/metro-sdk';
 ```
 
 ## Pod
+
 ### Fetching pods
+
 Once you init the SDK, you can call `getPod()`, `getUserPods()`, or `getAdminPods()` anywhere to fetch Pod objects.
 
 Using these functions can help you present and organize your application accordingly to pod and pod member structures of connected users.
@@ -35,7 +37,7 @@ Using these functions can help you present and organize your application accordi
 <TabItem value="query">
 
 ```js
-import { getPod, getUserPods, getAdminPods } from '@orcaprotocol/orca-sdk';
+import { getPod, getUserPods, getAdminPods } from '@0xmetropolis/metro-sdk';
 
 // ENS names also work for the below.
 const podFromEnsName = await getPod('mypod.pod.xyz');
@@ -64,10 +66,12 @@ const {
   imageNoTextUrl, // Source of NFT image without text (used for avatars)
 } = await getPod();
 ```
+
 </TabItem>
 </Tabs>
 
 ### Check roles and memberships
+
 For a given pod, you can check if a certain given user is a manager, manager pod member, or member pod.
 
 ```js
@@ -90,7 +94,6 @@ const isSubPodMemberBoolean = await pod.isSubPodMember('0x123...456');
 
 Once you have a given pod, you can fetch members, EOAs, member pods and parent pods with the following functions:
 
-
 ```js
 const pod = await getPod(podAddress);
 // Fetches list of all members from the pod, as an array of Ethereum addresses.
@@ -106,6 +109,6 @@ const memberPods = await pod.getMemberPods();
 // For a given pod, fetches all sub pods a given user is a part of
 const subPodsOfMember = await pod.getSubPodsByMember(userAddress);
 
-// Fetch the parent pod of a given pod, if relevant. 
+// Fetch the parent pod of a given pod, if relevant.
 const superPods = await pod.getSuperPods();
 ```
