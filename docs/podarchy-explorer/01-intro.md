@@ -28,6 +28,6 @@ We also aggregate some financial information for the podarchy you are currently 
 
 ## Permissions
 
-The Podarchy Explorer indexes Safe memberships and smart contracts that implement OpenZeppelin's Access Control. By looking up wallet addresses, Safes and smart contracts you can discover existing patterns across the entire Ethereum ecosystem that involve these interfaces.
+The Podarchy Explorer indexes Safe memberships and smart contracts that implement [OpenZeppelin's access controls](https://docs.openzeppelin.com/contracts/4.x/access-control). By looking up wallet addresses, Safes and smart contracts you can discover existing patterns across the entire Ethereum ecosystem that use these interfaces.
 
-It is a powerful feature that illuminates critical on-chain relationships, that are otherwise very tedious to uncover.
+If you have suggestions for interfaces we should support, let us know on [Discord](https://discord.gg/yRdfXxH9kd).

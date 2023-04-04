@@ -144,7 +144,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.gg/metropolis',
+                href: 'https://discord.gg/yRdfXxH9kd',
               },
               {
                 label: 'Twitter',
