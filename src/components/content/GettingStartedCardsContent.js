@@ -13,8 +13,8 @@ export const gettingStartedContent = [
     },
     {
       docNumber: '03',
-      docTitle: 'Integrate With Pods →',
-      docSubtopic: 'Integrate',
-      docLink: '/docs/sdk/sdk-overview',
+      docTitle: 'Podarchy Explorer →',
+      docSubtopic: 'Explore',
+      docLink: '/docs/podarchy-explorer/podarchy-explorer',
     },
   ]

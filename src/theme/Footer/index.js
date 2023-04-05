@@ -29,7 +29,7 @@
          </a>    
          <a
            className={styles.textFlexbox}
-           href="https://discord.gg/metropolis"
+           href="https://discord.gg/yRdfXxH9kd"
            target="_blank"
            rel="noopener noreferrer"
          >
