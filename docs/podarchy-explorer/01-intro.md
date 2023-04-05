@@ -6,7 +6,7 @@ title: Search and Explore
 ##### Explore on-chain structures with the Podarchy Explorer.
 ---
 
-The Podarchy Explorer is a spatial interface that indexes and visualizes on-chain permissions and other relationships.
+The Podarchy Explorer is a spatial interface that indexes and visualizes on-chain permissions and other relationships. With the Explorer, operators can quickly examine protocols they want to partner with and security researchers can map associated permissions of systems they are investigating.
 
 ## Podarchy Explorer
 
