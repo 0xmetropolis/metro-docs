@@ -1,6 +1,7 @@
 ---
 slug: 2023-04-20-permissions
 title: Apr 20, 2023
+authors: [ chun ]
 tags: [changelog, product]
 ---
 
