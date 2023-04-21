@@ -1,6 +1,7 @@
 ---
 slug: 2023-02-27-explore
 title: Feb 27, 2023
+authors: [chun]
 tags: [changelog, product]
 ---
 
